@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    /* background-color: gray; */
+    text-transform: capitalize;
+}
+
+.box {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* box-shadow: 20px; */
+    margin-top: 20px;
+    box-shadow: 0px 1px 9px 5px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 1px 9px 5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 1px 9px 5px rgba(0, 0, 0, 1);
+    /* box-shadow: 5px 5px 5px 5px black; */
+    border-radius: 5px;
+}
+
+.formsinp {
+    display: flex;
+    flex-direction: column;
+}
+
+.smallin {
+    width: 250px;
+    height: 50px;
+}
+
+.fl {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.smallin input {
+    border: 1px solid black;
+
+    padding: 7px 5px;
+    border-radius: 3px;
+}
+
+.smallin select {
+    border: 1px solid black;
+
+    padding: 7px 5px;
+    border-radius: 3px;
+}
+
+input[type="date"] {
+    border: 1px solid black;
+
+    padding: 12px 5px;
+    border-radius: 3px;
+}
+
+/* style for file input text and button */
+
+/* .file {
+
+    display: inline-flex
+}
+
+input[type=file]::file-selector-button {
+    border: 2px solid #6c5ce7;
+    padding: .2em .4em;
+    border-radius: .2em;
+    background-color: #a29bfe;
+    transition: 1s;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #81ecec;
+    border: 2px solid #00cec9;
+} */
+custom-file-input {
+    color: transparent;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select some files';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active {
+    outline: 0;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+body {
+    padding: 20px;
+}
+
+.b {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+button {
+    /* style the button */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+
+
+body {
+    background-color: #cfcccc;
+}
